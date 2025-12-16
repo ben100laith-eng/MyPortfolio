@@ -1,6 +1,6 @@
 /* RESET IMAGE ISSUES (IMPORTANT FOR GITHUB) */
 img{
-  max-width:100%;
+  max-width:10%;
   height:auto;
 }
 
@@ -82,4 +82,5 @@ footer a{
   color:#aaa;
   text-decoration:none;
 }
+
 
