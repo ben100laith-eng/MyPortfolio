@@ -1,66 +1,85 @@
-﻿body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #455c6fc6;
-    color: #fff;
+/* RESET IMAGE ISSUES (IMPORTANT FOR GITHUB) */
+img{
+  max-width:100%;
+  height:auto;
 }
 
-nav {
-    display: flex;
-    gap: 15px;
-    padding: 15px;
-    background: #100f0f;
+/* GLOBAL */
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0b0f17;
+  color:#fff;
+}
 
-    .brand{
+/* NAVBAR */
+nav{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  padding:15px 20px;
+  background:#111;
+}
+
+/* LOGO + NAME */
+.brand{
   display:flex;
   align-items:center;
   gap:10px;
+  margin-right:auto;
 }
 
 .brand img{
-  width:32px;
-  height:32px;
+  width:28px;
+  height:28px;
   object-fit:contain;
 }
 
+/* NAV LINKS */
+nav a{
+  color:#aaa;
+  text-decoration:none;
+  font-size:14px;
 }
 
-    nav a {
-        color: #aaa;
-        text-decoration: none;
-    }
-
-section {
-    padding: 40px 20px;
+/* SECTIONS */
+section{
+  padding:40px 20px;
 }
 
-#about {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+/* ABOUT SECTION */
+#about{
+  display:flex;
+  gap:20px;
+  align-items:center;
 }
 
-    #about img {
-        width: 150px;
-        border-radius: 10px;
-    }
-
-ul {
-    list-style: none;
-    padding: 0;
+#about img{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:10px;
 }
 
-li {
-    margin: 6px 0;
+/* LISTS */
+ul{
+  list-style:none;
+  padding:0;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
+li{
+  margin:6px 0;
 }
 
-    footer a {
-        color: #aaa;
-        text-decoration: none;
-    }
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111;
+}
+
+footer a{
+  color:#aaa;
+  text-decoration:none;
+}
+
